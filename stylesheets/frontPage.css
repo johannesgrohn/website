@@ -1,7 +1,7 @@
 .name {
     margin: 0;
     padding-left: 15px;
-    background-color: rgb(5, 72, 5) ;
+    background-color: rgb(99 187 221) ;
 }
 
 .top-row {
@@ -9,7 +9,7 @@
     font-family: Oswald;
     font-size: x-large;
     color: white;
-    background-color: rgb(5, 72, 5);
+    background-color: rgb(99 187 221);
     padding-top: 18px;
     padding-bottom: 18px;
 }
