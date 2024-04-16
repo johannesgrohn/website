@@ -1,0 +1,69 @@
+.name {
+    margin: 0;
+    padding-left: 15px;
+    background-color: rgb(5, 72, 5) ;
+}
+
+.top-row {
+    margin: 0;
+    font-family: Oswald;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(5, 72, 5);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+* {background-color: rgb(129, 160, 252);}
+
+.container {
+    display: flex;
+    padding-left: 10px;
+    
+}
+
+.info {
+    font-size: x-large;
+    margin: 0;
+    margin-top: 20px;
+    font-family: Oswald;
+    color: white;
+    width: 500px;
+}
+
+.title {
+    margin: 0;
+    margin-top: 20px;
+    font-family: Oswald;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+
+
+.mountain-con {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.mountain {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0; 
+}
+
+.photo {
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 600px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
