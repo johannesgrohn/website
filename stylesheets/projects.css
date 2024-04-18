@@ -1,0 +1,29 @@
+* {background-color: rgb(129, 160, 252);}
+
+
+.name {
+    margin: 0;
+    padding-left: 15px;
+    color: white;
+    background-color: rgb(99 187 221);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.proj-button {
+    background-color: rgb(99 187 221);
+    color: white;
+    margin-left: 1250px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top-row {
+    margin: 0;
+    font-family: Oswald;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(99 187 221);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
