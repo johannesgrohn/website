@@ -46,8 +46,9 @@ body {
 }
 
 .go-back {
-    margin-bottom: 600px;
-    margin-right: 1300px;
+    position: absolute; 
+    top: 0;
+    left: 0;
 
     border-style: solid;
     border-color: white;
