@@ -1,29 +1,26 @@
 body {
-    background-color: antiquewhite
+    font-family: Oswald, sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
 }
-
 
 .photo {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    display: flex;
     border-style: groove;
     border-color: black;
 }
 
 .container {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    gap: 16px;
-    padding: 16px;
+    text-align: center;
+    margin-bottom: 16px;
 }
 
-.box {
+.text-box {
+    align-items: center;
     text-align: center;
     margin-bottom: 16px;
 }
@@ -31,18 +28,15 @@ body {
 .website {
     padding-left: 16px;
     color: black;
-    font-family: Oswald;
     font-size: x-large;
 }
 
 .title {
     color: black;
-    font-family: Oswald;
     font-size: xx-large;
 }
 
 .info {
     color: black;
-    font-family: Oswald;
     font-size: x-large;
 }
