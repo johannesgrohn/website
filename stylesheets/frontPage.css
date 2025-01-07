@@ -1,91 +1,48 @@
-.name {
-    margin: 0;
-    padding-left: 15px;
-    color: white;
-    background-color: rgb(99 187 221);
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-    align-items: flex-end;
+body {
+    background-color: antiquewhite
 }
 
-.proj-button {
-    background-color: rgb(99 187 221);
-    color: white;
-    margin-left: 1250px;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-}
-
-
-.top-row {
-    margin: 0;
-    font-family: Oswald;
-    font-size: x-large;
-    color: white;
-    background-color: rgb(99 187 221);
-    padding-top: 18px;
-    padding-bottom: 18px;
-    display: flex;
-}
-
-* {background-color: rgb(129, 160, 252);}
-
-.container {
-    display: flex;
-    padding-left: 10px;
-    display: flex;
-    
-}
-
-.info {
-    font-size: x-large;
-    margin: 0;
-    margin-top: 20px;
-    font-family: Oswald;
-    color: white;
-    width: 500px;
-    display: flex;
-}
-
-.title {
-    margin: 0;
-    margin-top: 20px;
-    font-family: Oswald;
-    font-size: xx-large;
-    color: white;
-    font-weight: bold;
-    display: flex;
-}
-
-
-.mountain-con {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 100%;
-}
-
-.mountain {
-    max-width: 100%;
-    width: 79%;
-    height: auto;
-    margin-bottom: 0; 
-}
 
 .photo {
-    margin-bottom: 0;
-    margin-top: 30px;
-    margin-left: 600px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
     display: flex;
-    
+    border-style: groove;
+    border-color: black;
 }
 
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
 
+.box {
+    text-align: center;
+    margin-bottom: 16px;
+}
 
+.website {
+    padding-left: 16px;
+    color: black;
+    font-family: Oswald;
+    font-size: x-large;
+}
 
+.title {
+    color: black;
+    font-family: Oswald;
+    font-size: xx-large;
+}
+
+.info {
+    color: black;
+    font-family: Oswald;
+    font-size: x-large;
+}
