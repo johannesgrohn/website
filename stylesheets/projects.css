@@ -1,13 +1,12 @@
-* {background-color: rgb(129, 160, 252);}
-
-
-.name {
+body {
+    font-family: Oswald, sans-serif;
     margin: 0;
-    padding-left: 15px;
-    color: white;
-    background-color: rgb(99 187 221);
-    cursor: pointer;
-    text-decoration: none;
+    background-color: antiquewhite;
+}
+
+.website {
+    padding-left: 16px;
+    font-size: x-large;
 }
 
 .proj-button {
