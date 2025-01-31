@@ -89,10 +89,14 @@ nav {
     font-size: x-large;
 }
 
-.button-box {
+.info-box {
+    width: 500px;
+}
+
+.center-box {
     display: flex;
-    align-items: center;
-    gap: 100px;
+    align-items: space-between;
+    gap: 50px;
     justify-content: center;
     background-color:rgb(127, 137, 177);
     padding-top: 40px;
