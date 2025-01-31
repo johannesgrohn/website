@@ -119,8 +119,30 @@ nav {
     font-size: smaller;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .center-box {
         flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 400px;
+    }
+
+   
+}
+
+@media screen and (max-width: 376px) {
+    .center-box {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 300px;
     }
 }
+    
+
