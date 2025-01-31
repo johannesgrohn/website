@@ -9,20 +9,6 @@ body {
     font-size: x-large;
 }
 
-.off-screen-menu {
-    background-color: rgb(34, 37, 49);
-    height: 100vh;
-    width: 100%;
-    max-width: 450px;
-    position: fixed;
-    top: 0;
-    right: -450px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 3rem;
-    transition: .3s ease;
-}
 
 nav {
     padding: 0 16px;
@@ -33,36 +19,44 @@ nav {
     height: 60px;
 }
 
-.ham-menu {
-    height: 50px;
-    width: 50px;
-    margin: auto;
-    position: relative;
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
+    margin-left: auto;
 }
 
-.ham-menu span {
-    height: 5px;
-    width: 50px;
-    background-color: #0c2d66;
-    border-radius: 25px;
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+.menu-items {
+    display: none;
+    flex-direction: column;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: .3s ease;
+    top: 60px;
+    right: 0px;
+    background-color: rgb(127, 137, 177);
+    border: 1px solid black;
 }
 
-.ham-menu span:nth-child(1) {
-    top: 25%;
+.menu-items a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
 
-.ham-menu span:nth-child(3) {
-    top: 75%;
+.menu-items a:last-child {
+    border-bottom: none;
 }
 
-.off-screen-menu:active {
-    right: 0;
+.menu-items.show {
+    display: flex;
 }
 
 .container {
@@ -100,7 +94,7 @@ nav {
     align-items: center;
     gap: 100px;
     justify-content: center;
-    background-color: rgb(121, 247, 121);
+    background-color:rgb(127, 137, 177);
     padding-top: 40px;
     padding-bottom: 40px
 }
@@ -114,8 +108,8 @@ button {
     cursor: pointer;
     padding: 20px 40px 20px 40px;
     border-style: solid;
-    border-color: rgb(10, 179, 61);
-    background-color: rgb(10, 179, 61);
+    border-color: rgb(85, 142, 206);
+    background-color: rgb(85, 142, 206);
     border-radius: 10px;
     font-family: Oswald;
     font-size: 40px;
