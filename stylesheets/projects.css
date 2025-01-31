@@ -9,20 +9,67 @@ body {
     font-size: x-large;
 }
 
-.proj-button {
-    background-color: rgb(99 187 221);
-    color: white;
-    margin-left: 1250px;
-    cursor: pointer;
-    text-decoration: none;
+nav {
+    padding: 0 16px;
+    display: flex;
+    background-color: rgb(127, 137, 177);
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 
-.top-row {
-    margin: 0;
-    font-family: Oswald;
-    font-size: x-large;
-    color: white;
-    background-color: rgb(99 187 221);
-    padding-top: 18px;
-    padding-bottom: 18px;
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+.menu-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    background-color: rgb(127, 137, 177);
+    border: 1px solid black;
+}
+
+
+.menu-items a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+}
+
+.menu-items a:hover {
+    background-color: rgb(85, 142, 206);
+}
+
+.menu-items a:last-child {
+    border-bottom: none;
+}
+
+.menu-items.show {
+    display: flex;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0px;
+    font-size: 75px;
 }
