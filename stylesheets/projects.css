@@ -72,6 +72,7 @@ nav {
 .title {
     margin-top: 0px;
     font-size: 75px;
+    margin-bottom: 0px;
 }
 
 .project-box {
@@ -84,13 +85,17 @@ nav {
     padding-bottom: 40px
 }
 
+.proj-title {
+    font-size: 30px;
+}
+
 .download-button {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
     font-size: 16px;
     color: white;
-    background-color: #007bff;
+    background-color: #6a7fd1;
     border: none;
     border-radius: 5px;
     text-decoration: none;
